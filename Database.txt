@@ -1,0 +1,30 @@
+CREATE TABLE doctors(
+    dss int NOT null,
+    Name varchar(50),
+    Email varchar(50),
+     Brithday date,
+    Gender varchar(50),
+    Department varchar(50),
+    Phone_Number varchar(50),
+   Additional_Message varchar(50)
+    
+);
+
+
+CREATE TABLE users(
+    name varchar(50),
+    phoneno varchar(50),
+    email varchar(50),
+    feedback varchar(50)
+);
+
+
+CREATE TABLE patient(
+    name varchar(50),
+    phoneno varchar(50),
+    email varchar(50),
+     insurance varchar(50),
+    date_admitted date,
+    department varchar(50)
+    
+);
